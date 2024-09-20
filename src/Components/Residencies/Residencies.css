@@ -1,6 +1,7 @@
 .r-container {
     overflow: hidden;
     position: relative;
+    margin:auto;
   }
   .r-head {
     margin-bottom: 2rem;
@@ -77,4 +78,3 @@
       position: initial;
     }
   }
-  

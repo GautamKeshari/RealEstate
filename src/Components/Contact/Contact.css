@@ -15,6 +15,7 @@
   
   .contactModes .row {
     gap: 1.5px;
+    /* margin: auto; */
   }
   
   .mode {
@@ -65,8 +66,18 @@
     .row {
       flex-direction: column;
     }
+    .singleColumn{
+      margin: auto;
+    }
     /* .mode {
       width: 100%;
     } */
+  }
+
+  @media (max-width: 1100px) {
+    .c-right {
+      justify-content: center;
+      margin: auto;
+    }
   }
   

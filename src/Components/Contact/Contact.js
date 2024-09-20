@@ -17,8 +17,9 @@ const Contact = () => {
             beleive a good blace to live can make your life better{" "}
           </span>
 
-          <div className="flexColStart contactModes">
+          <div className="flexColStart contactModes singleColumn">
             {/* first row */}
+            {/* <h1>high</h1> */}
             <div className="flexStart row">
               <div className="flexColCenter mode">
                 <div className="flexStart">
@@ -46,6 +47,7 @@ const Contact = () => {
                 <div className="flexCenter button">Chat now</div>
               </div>
             </div>
+            
 
             {/* second row */}
             <div className="flexStart row">
@@ -76,6 +78,7 @@ const Contact = () => {
               </div>
             </div>
           </div>
+          {/* <h1>high</h1> */}
         </div>
 
         {/* right side */}
